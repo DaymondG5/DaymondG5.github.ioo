@@ -1,0 +1,51 @@
+/* style.css - Main styles for Greenfield Project */
+
+/* General page layout */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section titles */
+h2 {
+  color: #2c3e50;
+  margin-top: 40px;
+  text-align: center;
+}
+
+/* AJAX-loaded user data */
+#user-data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+/* Each user card */
+.user-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.05);
+  padding: 1rem;
+  width: 250px;
+  transition: transform 0.2s ease;
+}
+
+.user-card:hover {
+  transform: translateY(-4px);
+}
+
+.user-card h3 {
+  margin-top: 0;
+  color: #2980b9;
+}
+
+.user-card p {
+  margin: 5px 0;
+  color: #333;
+}
